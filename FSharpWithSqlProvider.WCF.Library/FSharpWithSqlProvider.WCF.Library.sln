@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharpWithSqlProvider.WCF.Library", "FSharpWithSqlProvider.WCF.Library\FSharpWithSqlProvider.WCF.Library.fsproj", "{8D72686B-1EB1-42FC-9FFC-DF77E2E86038}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{6440FF8B-EE5B-4E88-AE94-D0ED6FC3BD66}"
+	ProjectSection(SolutionItems) = preProject
+		CreateDB.sql = CreateDB.sql
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSharpWithSqlProvider.WCF.Service", "FSharpWithSqlProvider.WCF.Service\FSharpWithSqlProvider.WCF.Service.csproj", "{733C06A3-34B0-47F8-8704-49F098853DEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D72686B-1EB1-42FC-9FFC-DF77E2E86038}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D72686B-1EB1-42FC-9FFC-DF77E2E86038}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D72686B-1EB1-42FC-9FFC-DF77E2E86038}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D72686B-1EB1-42FC-9FFC-DF77E2E86038}.Release|Any CPU.Build.0 = Release|Any CPU
+		{733C06A3-34B0-47F8-8704-49F098853DEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{733C06A3-34B0-47F8-8704-49F098853DEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{733C06A3-34B0-47F8-8704-49F098853DEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{733C06A3-34B0-47F8-8704-49F098853DEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
